@@ -1,7 +1,7 @@
 {
   "name": "sl-ember-bs-colorpicker",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Modified from ember-cli-bootstrap-colorpicker@2.5.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -44,6 +44,9 @@
     "ember-addon"
   ],
   "dependencies": {
+    "bootstrap-colorpicker": "^2.5.1",
+    "broccoli-funnel": "^2.0.1",
+    "broccoli-merge-trees": "^2.0.0",
     "ember-cli-babel": "^5.1.7"
   },
   "ember-addon": {
